@@ -8,6 +8,7 @@ body {
     font-weight: normal;
     font-size: 15px;
     max-width: 1200px;
+    min-width: 300px;
     background-color: #121212;
 }
 
@@ -70,12 +71,13 @@ p {
 
 .activity-card {
     width: 250px;
+    margin: 20px;
 }
 
 .activity-card h4 {
     align-content: center;
     margin: 10px 0;
-    height: 50px;
+    height: 70px;
 }
 
 .activity-card img {
@@ -91,11 +93,12 @@ p {
 #guide {
     background-color: #B2C2B9;
     background-size: cover;
-    padding: 5px 20px 40px 20px;
+    padding: 5px 20px 80px 20px;
 }
 
 #guide-cont {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 40px;
     justify-content: center;
 }
@@ -108,7 +111,6 @@ p {
 }
 
 #guide-details {
-    text-align: left;
     width: 250px;
     align-content: center;
 }
